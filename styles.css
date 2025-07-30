@@ -22,6 +22,8 @@ p {
     font-size: 20px;
 }
 
+
+
 section {
     background: rgb(237, 243, 159);
     padding-bottom: 80px;
@@ -34,11 +36,25 @@ section {
 .chamada-texto {
     margin-right: 10%;
 }
+.outrasRecommendações {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
 
+img {
+    width: 200px;
+    height: 300px;
+}
 h1 {
     font-size: 40px;
 }
 
 p {
     font-size: 20px;
+}
+
+
+body{
+    padding-bottom: 40px;
 }
